@@ -1,0 +1,86 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+//   .wp-block-create-block-team-members {
+// 	background-color: #dfeaef;
+// 	color: #222;
+// 	padding: 2px;
+// 	font-family: "Roboto";
+// 	font-weight: 900;
+// }
+
+
+.team-member-description label{
+	color: #913D2E;
+	font-family: "Roboto";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+.team-member-description h3{
+	color: #222;
+	font-family: "Roboto";
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px; /* 93.75% */
+	text-transform: capitalize;
+	padding-bottom:0;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+.team-member-description p{
+	color: #000;
+	opacity: 0.7;
+}
+
+.profile--details--info{
+	display: none;
+	position: absolute;
+	left: 0px;
+	border: 1px solid #D4D4D4;
+	background-color: #fff;
+	padding: 1em;
+	border-radius: 15px;
+	margin-top: 10px;
+	width: 90%;
+}
+
+.team-member{
+	display: flex;
+	flex-wrap: wrap; /* Allow wrapping to create new rows */
+  justify-content: space-between; /* Spacing between columns */
+  position: relative;
+  row-gap: 40px;
+  
+}
+
+.team-member-item{
+	flex: 0 0 calc(50% - 10px); /* 50% width with some margin */
+	margin: 5px; /* Margin between columns */
+	display: flex;
+	column-gap: 20px;
+}
+button.show-button-detail{
+	border:1px solid #D4D4D4;
+	padding:15px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+}
+button.show-button-detail.active{
+	background-color: #EDE236;
+	border:none;
+	
+}
+.team-member-item.move-element-down{
+	margin-top: 240px
+}

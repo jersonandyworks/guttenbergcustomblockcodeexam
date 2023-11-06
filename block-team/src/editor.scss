@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-team-members {
+	border: 1px dotted #f00;
+}
+
+.wp-block-create-block-team-members  .team-members-block{
+	display: flex;
+	flex-wrap: wrap; /* Allow wrapping to create new rows */
+  justify-content: space-between; /* Spacing between columns */
+}
+.wp-block-create-block-team-members .team-members-block .team-member{
+	flex: 0 0 calc(50% - 10px); /* 50% width with some margin */
+	margin: 5px; /* Margin between columns */
+}

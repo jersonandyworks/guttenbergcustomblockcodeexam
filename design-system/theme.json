@@ -1,0 +1,80 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Dark",
+                    "slug": "dark",
+                    "color": "#222222"
+                },
+                {
+                    "name": "Yellow",
+                    "slug": "yellow",
+                    "color": "#EDE236"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Ash",
+                    "slug": "ash",
+                    "color": "#F2F2F2"
+                },
+                {
+                    "name": "Maroon",
+                    "slug": "maroon",
+                    "color": "#913D2E"
+                }
+            ]
+        },
+        "typography": {
+            "font-family": "Roboto",
+            "font-size": {
+              "h1": "48px",
+              "h2": "40px",
+              "h3": "36px",
+              "p": "16px"
+            },
+            "line-height": {
+              "h1": "60px",
+              "h2": "50px",
+              "h3": "40px",
+              "p": "24px"
+            },
+            "font-weight": {
+                "h1": {
+                  "light": 300,
+                  "regular": 400,
+                  "medium": 500,
+                  "semibold": 600,
+                  "bold": 700,
+                  "extra-bold": 800
+                },
+                "h2": {
+                  "light": 300,
+                  "regular": 400,
+                  "medium": 500,
+                  "semibold": 600,
+                  "bold": 700,
+                  "extra-bold": 800
+                },
+                "h3": {
+                  "light": 300,
+                  "regular": 400,
+                  "medium": 500,
+                  "semibold": 600,
+                  "bold": 700,
+                  "extra-bold": 800
+                }
+              }
+          }
+    }
+}

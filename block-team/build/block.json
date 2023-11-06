@@ -1,0 +1,206 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/team-members",
+  "version": "0.1.0",
+  "title": "Team Members",
+  "category": "layout",
+  "icon": "id",
+  "description": "Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "members": {
+      "type": "array",
+      "default": [
+        {
+          "memberOne": {
+            "detailsOpened": {
+              "type": "boolean",
+              "default": true
+            },
+            "imageUrl": {
+              "type": "string",
+              "selector": ".team-member-profile-image"
+            },
+            "name": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-name",
+              "default": "Robyn Regattieris"
+            },
+            "position": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Chairperson"
+            },
+            "info": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Robyn Regattieri is the Business Manager for Top End Aboriginal Bush Broadcasting Association (TEABBA), a position she has held for 15 years. Robyn holds various qualifications inclusive of Business Administration, Project Management and Training and Assessment.Prior to working with TEABBA, Robyn spent many years with the Department of Law, travelling to remote communities, working in courts administration within the Magistrates and Supreme Courts. Robyn is also one of the founding members on the board of the Northern Alliance which are representatives of Remote Indigenous Media Organisations across Australia. Robyn, our current Chairperson has been a Director on the Ironbark Aboriginal Corporation Board since its inception on June 1st 2000."
+            }
+          }
+        },
+        {
+          "memberTwo": {
+            "detailsOpened": {
+              "type": "boolean",
+              "default": true
+            },
+            "imageUrl": {
+              "type": "string",
+              "selector": ".team-member-profile-image"
+            },
+            "name": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-name",
+              "default": "Joe Brown"
+            },
+            "position": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Director"
+            },
+            "info": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Joe Brown serves as the Operations Director at GreenWave Solar Solutions, where he has dedicated 12 years to advancing renewable energy. With a strong foundation in the field, Joe began his career as a solar technician, transitioning into project management before taking on his current role. His commitment to sustainable energy is reinforced by a Bachelor's degree in Environmental Science and a wealth of training in renewable energy technologies and project management. Outside of work, Joe actively engages in local environmental initiatives, enhancing his contribution to GreenWave's mission of promoting clean and sustainable energy solutions."
+            }
+          }
+        },
+        {
+          "memberThree": {
+            "detailsOpened": {
+              "type": "boolean",
+              "default": true
+            },
+            "imageUrl": {
+              "type": "string",
+              "selector": ".team-member-profile-image"
+            },
+            "name": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-name",
+              "default": "Halpin Hart"
+            },
+            "position": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Director"
+            },
+            "info": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Halpin Halt is a highly experienced software engineer with over a decade of success in software development. His expertise covers a wide spectrum of programming languages and technologies, allowing him to excel in various projects within the tech industry. Halpin's proven problem-solving skills and adaptability have consistently delivered positive outcomes, making him a respected figure in the field. Beyond his technical prowess, Halpin is a strong advocate for mentorship and knowledge sharing, actively participating in community events and workshops. His commitment to fostering the growth of the next generation of developers makes him an influential figure in the software development community. With his extensive experience and dedication, Halpin continues to shape the future of technology."
+            }
+          }
+        },
+        {
+          "memberFour": {
+            "detailsOpened": {
+              "type": "boolean",
+              "default": true
+            },
+            "imageUrl": {
+              "type": "string",
+              "selector": ".team-member-profile-image"
+            },
+            "name": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-name",
+              "default": "Regina Bennett"
+            },
+            "position": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Director"
+            },
+            "info": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Regina Bennett is a dynamic marketing professional with a proven track record in driving brand success. With a blend of strategic thinking and creative flair, Regina has consistently delivered impactful marketing campaigns for a range of clients across various industries. Her ability to adapt to evolving market trends and her knack for connecting with target audiences make her a valuable asset in the field. Regina is not only a marketing expert but also a passionate advocate for social causes. She actively engages in community projects and sustainability initiatives, reflecting her commitment to making a positive impact on society. With her diverse skill set and a strong sense of social responsibility, Regina continues to drive innovation and positive change in the marketing world."
+            }
+          }
+        },
+        {
+          "memberFive": {
+            "detailsOpened": {
+              "type": "boolean",
+              "default": true
+            },
+            "imageUrl": {
+              "type": "string",
+              "selector": ".team-member-profile-image"
+            },
+            "name": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-name",
+              "default": "Jerome Cubillo"
+            },
+            "position": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Deputy Chairperson"
+            },
+            "info": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Jerome Cubillo is a dedicated healthcare professional with a decade of experience in nursing and patient care. His commitment to providing compassionate and high-quality medical assistance has earned him a stellar reputation in the healthcare industry. Jerome's expertise in various aspects of patient care, from critical care to routine check-ups, makes him an invaluable asset in ensuring the well-being of those under his care. Beyond his medical career, Jerome actively participates in community health initiatives and volunteer programs, demonstrating his strong commitment to making a positive impact in the lives of others. With his unwavering dedication to healthcare and community service, Jerome Cubillo continues to be a trusted figure in the field, promoting the well-being of patients and the broader community."
+            }
+          }
+        },
+        {
+          "memberSix": {
+            "detailsOpened": {
+              "type": "boolean",
+              "default": true
+            },
+            "imageUrl": {
+              "type": "string",
+              "selector": ".team-member-profile-image"
+            },
+            "name": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-name",
+              "default": "Sonya Laughton"
+            },
+            "position": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Director"
+            },
+            "info": {
+              "type": "string",
+              "source": "text",
+              "selector": ".team-member-position",
+              "default": "Sonya Laughton is an accomplished artist known for her captivating work in the field of contemporary painting. With a unique blend of color, texture, and creativity, Sonya's art has garnered attention in both local galleries and international exhibitions. Her distinct style and expressive use of various mediums have earned her a reputation as an emerging talent in the art world.Beyond her artistic endeavors, Sonya is a passionate advocate for art education and regularly engages in workshops and community outreach programs, fostering the next generation of artists. With her dedication to her craft and her commitment to nurturing artistic talent, Sonya Laughton continues to leave her mark on the art scene while contributing to the growth of aspiring artists."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "team-members",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
